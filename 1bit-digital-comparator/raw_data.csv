@@ -1,0 +1,13 @@
+experiment,input_A,input_B,output_AeqB_V,output_AgtB_V,output_AltB_V,notes
+A=B,0,0,2.35,0,0,high output on A=B terminal
+A=B,0,1,0,0,0,low on all (corrected: 0.8 crossed)
+A=B,1,0,0,0,0,low on all
+A=B,1,1,2.35,0,0,high output on A=B terminal
+A>B,0,0,0,0,0,all low
+A>B,0,1,0,0,0,all low
+A>B,1,0,0,2.35,0,high on A>B terminal
+A>B,1,1,0,0,0,all low
+A<B,0,0,0,0,0,all low
+A<B,0,1,0,0,2.35,high on A<B terminal
+A<B,1,0,0,0,0,all low
+A<B,1,1,0,0,0,all low

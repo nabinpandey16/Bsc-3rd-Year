@@ -1,0 +1,5 @@
+input_A,input_B,A_eq_B_logical,A_gt_B_logical,A_lt_B_logical,V_AeqB,V_AgtB,V_AltB,V_AeqB_corrected,V_AgtB_corrected,V_AltB_corrected,uncertainty_V,logic_AeqB,logic_AgtB,logic_AltB
+0,0,1,0,0,2.35,0,0,2.35,0,0,0.5,HIGH,LOW,LOW
+0,1,0,0,1,0,0,2.35,0,0,2.35,0.5,LOW,LOW,HIGH
+1,0,0,1,0,0,2.35,0,0,2.35,0,0.5,LOW,HIGH,LOW
+1,1,1,0,0,2.35,0,0,2.35,0,0,0.5,HIGH,LOW,LOW
