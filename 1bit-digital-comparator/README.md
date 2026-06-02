@@ -1,4 +1,4 @@
-# ⚡ 1-Bit Digital Comparator
+#  1-Bit Digital Comparator
 
 [![Physics](https://img.shields.io/badge/Domain-Digital%20Electronics-blue?style=flat-square)](https://github.com)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow?style=flat-square&logo=python)](https://python.org)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 A **1-bit digital comparator** is a combinational logic circuit that compares two single-bit binary inputs **A** and **B**, and produces three outputs:
 
@@ -25,7 +25,7 @@ The circuit was implemented using ICs **7408 (AND)**, **7404 (NOT)**, **7402 (NO
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 - To design and construct a 1-bit digital comparator circuit on a breadboard.
 - To verify the truth table experimentally by measuring output voltages for all input combinations.
@@ -33,7 +33,7 @@ The circuit was implemented using ICs **7408 (AND)**, **7404 (NOT)**, **7402 (NO
 
 ---
 
-## 🔧 Apparatus Required
+##  Apparatus Required
 
 | Instrument | Specification | Quantity |
 |-----------|--------------|----------|
@@ -49,7 +49,7 @@ The circuit was implemented using ICs **7408 (AND)**, **7404 (NOT)**, **7402 (NO
 
 ---
 
-## 📐 Theory
+##  Theory
 
 ### Fundamental Principle
 
@@ -108,7 +108,7 @@ Typical output HIGH voltage ($V_{OH,min}$) ≈ 2.4 V, which is consistent with o
 
 ---
 
-## 🔌 Experimental Setup
+##  Experimental Setup
 
 The comparator is built using three sub-circuits on a breadboard:
 
@@ -135,7 +135,7 @@ The comparator is built using three sub-circuits on a breadboard:
 
 ---
 
-## 📋 Procedure
+##  Procedure
 
 1. Identify all IC pins using the 7408, 7404, 7402 datasheets. Verify $V_{CC}$ (pin 14) and GND (pin 7) connections.
 2. Insert all ICs into the breadboard, ensuring sufficient spacing.
@@ -153,7 +153,7 @@ The comparator is built using three sub-circuits on a breadboard:
 
 ---
 
-## 👁️ Observation
+##  Observation
 
 **Instrument calibration:**
 
@@ -166,7 +166,7 @@ When the correct output condition was active (e.g., A = B when inputs matched), 
 
 ---
 
-## 📊 Observation Tables
+##  Observation Tables
 
 ### (i) For A = B Output
 
@@ -197,7 +197,7 @@ When the correct output condition was active (e.g., A = B when inputs matched), 
 
 ---
 
-## 🧮 Calculations
+##  Calculations
 
 ### Error Analysis
 
@@ -227,7 +227,7 @@ The zero variance confirms **perfectly consistent IC output** — a hallmark of 
 
 ---
 
-## 📈 Graphical Analysis
+##  Graphical Analysis
 
 See the [`figures/`](figures/) directory for:
 
@@ -249,7 +249,7 @@ jupyter lab notebooks/analysis.ipynb
 
 ---
 
-## ✅ Results
+##  Results
 
 | Quantity | Value |
 |----------|-------|
@@ -263,7 +263,7 @@ jupyter lab notebooks/analysis.ipynb
 
 ---
 
-## 💬 Discussion
+##  Discussion
 
 The measured HIGH voltage of 2.35 V is consistent with the TTL specification for $V_{OH,min}$ ≈ 2.4 V. The small deviation (0.65 V from the 3V supply) arises from:
 
@@ -275,13 +275,13 @@ The voltmeter uncertainty of ±0.5 V (one division) means the readings 2.35 V an
 
 ---
 
-## 📝 Conclusion
+##  Conclusion
 
 The 1-bit digital comparator was successfully designed and verified on a breadboard using ICs 7408, 7404, 7402, and a BC547 transistor. The circuit accurately compared all four input combinations and produced correct HIGH/LOW outputs for each of the three comparison outputs (A=B, A>B, A<B). Experimental results matched the theoretical truth table with 100% accuracy, confirming the validity of the Boolean expressions derived from the truth table. The experiment demonstrates fundamental principles of combinational digital logic and their practical implementation.
 
 ---
 
-## ⚠️ Precautions
+##  Precautions
 
 1. Ensure all logic gate connections follow the circuit diagram before switching on the power supply.
 2. Always disconnect the power supply while assembling or modifying the circuit to avoid short circuits.
@@ -291,7 +291,7 @@ The 1-bit digital comparator was successfully designed and verified on a breadbo
 
 ---
 
-## 🔍 Sources of Error
+##  Sources of Error
 
 | Error Type | Source | Impact |
 |-----------|--------|--------|
@@ -304,7 +304,7 @@ The 1-bit digital comparator was successfully designed and verified on a breadbo
 
 ---
 
-## 🚀 Improvements
+##  Improvements
 
 - Use a **regulated 5 V power supply** to operate the 74xx ICs at their rated voltage for more accurate output levels.
 - Replace the voltmeter with a **digital multimeter (DMM)** for higher precision (resolution: 0.01 V vs 0.5 V).
@@ -314,7 +314,7 @@ The 1-bit digital comparator was successfully designed and verified on a breadbo
 
 ---
 
-## 📚 References
+##  References
 
 Boylestad, R. L., & Nashelsky, L. (2013). *Electronic devices and circuit theory* (11th ed.). Pearson.
 
@@ -334,7 +334,7 @@ Tri-Chandra Multiple Campus. (2082). *Physics practical manual — B.Sc. 3rd Yea
 
 ---
 
-## 🛠️ Skills Demonstrated
+##  Skills Demonstrated
 
 - Digital logic design (combinational circuits)
 - TTL IC interfacing and breadboard prototyping
@@ -343,7 +343,7 @@ Tri-Chandra Multiple Campus. (2082). *Physics practical manual — B.Sc. 3rd Yea
 - Data visualization with Python (Matplotlib)
 - Scientific reporting and documentation
 
-## 🧠 Physics Concepts Learned
+##  Physics Concepts Learned
 
 - Binary number representation and magnitude comparison
 - Boolean algebra: AND, NOT, NOR gate operations
