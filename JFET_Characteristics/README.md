@@ -9,7 +9,7 @@
 
 > **Experiment No. 8 | BSc 3rd Year Physics Practical**  
 > Tri-Chandra Multiple Campus, Tribhuvan University  
-> Date: 2082/01/30 (BS) | Roll No: 093/295
+> Date: 2082/01/30 (BS) | Roll No: 079/295
 
 ---
 
